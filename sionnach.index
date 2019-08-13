@@ -12,7 +12,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/sionnach/sources.xml" />
-		<file name="race-fallenhuman.xml" url="httpa://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/sionnach/race-fallenhuman.xml" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml?token=AMU7GFZVJTGRUJPRH7BSG525KML6E" />
+		<file name="race-fallenhuman.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-fallenhuman.xml?token=AMU7GF7P5GIWJ3NCSWEB2425KMMCK" />
 	</files>
 </index>
