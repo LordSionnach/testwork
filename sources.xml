@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml?token=AMU7GFZVJTGRUJPRH7BSG525KML6E" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml" />
 		</update>
 	</info>
 	<element name="Sionnach" type="Source" source="Core" id="ID_SION_SOURCE_SIONNACH">
