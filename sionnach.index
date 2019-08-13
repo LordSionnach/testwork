@@ -8,11 +8,11 @@
 		<author url="">
 		</author>
 		<update version="0.0.1" revised="">
-			<file name="sionnach.index" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sionnach.index?token=AMU7GFZ7Z6Q72NMQWT6YMV25KMMHC" />
+			<file name="sionnach.index" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sionnach.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml?token=AMU7GFZVJTGRUJPRH7BSG525KML6E" />
-		<file name="race-fallenhuman.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-fallenhuman.xml?token=AMU7GF7P5GIWJ3NCSWEB2425KMMCK" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml" />
+		<file name="race-fallenhuman.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-fallenhuman.xml" />
 	</files>
 </index>
