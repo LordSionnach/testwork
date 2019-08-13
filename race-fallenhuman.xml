@@ -93,7 +93,7 @@
         <span class="feature">Ability Score Increase.</span> Your Constitution score increases by 1.<br />
         <span class="feature">But it Refused.</span> You gain access to a reservoir of Determination, and are able to tap into it in times of need. Your maximum determination is equal to your proficiency bonus.<br />
      	You can use your reaction to use one point of determination whenever you take damage. You gain resistance to the triggering damage, and if it would reduce you to 0 hp, you drop to 1 instead. <br />
-	You can also use a point of determination whenever you fail a death saving throw. If you do, you immediatly get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.  
+	You can also use a point of determination whenever you fail a death saving throw. If you do, you get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.  
 	</p>
     </description>
     <sheet display="false"/>
@@ -113,12 +113,12 @@
     <description>
       <p>You gain access to a reservoir of Determination, and are able to tap into it in times of need. Your maximum determination is equal to your proficiency bonus.<br />
      	You can use your reaction to use one point of determination whenever you take damage. You gain resistance to the triggering damage, and if it would reduce you to 0 hp, you drop to 1 instead. <br />
-	You can also use a point of determination whenever you fail a death saving throw. If you do, you immediatly get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.</p>
+	You can also use a point of determination whenever you fail a death saving throw. If you do, you get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.</p>
     </description>
     <sheet display="true">
       <description>Your maximum determination is equal to your proficiency bonus.<br />
      	You can use your reaction to use one point of determination whenever you take damage. You gain resistance to the triggering damage, and if it would reduce you to 0 hp, you drop to 1 instead. <br />
-	You can also use a point of determination whenever you fail a death saving throw. If you do, you immediatly get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.</description>
+	You can also use a point of determination whenever you fail a death saving throw. If you do, you get back to your feet. You must still roll a death saving throw at the beginning of your turns, but until you succeed or fail three, you can move and act as normal. Once you either succeed or fail three throws, you fall to the ground, out of energy. If you succeeded them, then you are stable. If not, then you die as normal.</description>
     </sheet>
     <rules>
     </rules>
