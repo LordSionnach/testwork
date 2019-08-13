@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://www.sionnachwashere.com">Your Lord, Sionnach</author>
 		<update version="0.0.1">
-			<file name="race-fallenhuman.xml" url="httpa://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/sionnach/race-fallenhuman.xml" />
+			<file name="race-fallenhuman.xml" url="https://github.com/LordSionnach/testwork/blob/master/race-fallenhuman.xml" />
 		</update>
 	</info>
 
