@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Fallen Human</name>
+		<description></description>
+		<author url="https://www.sionnachwashere.com">Your Lord, Sionnach</author>
+		<update version="0.0.1">
+			<file name="race-fallenhuman.xml" url="httpa://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/sionnach/race-fallenhuman.xml" />
+		</update>
+	</info>
+
+  <element name="Fallen Human" type="Race" source="Sionnach's Mind" id="ID_SION_RACE_FALLENHUMAN">
+    <description>
+      <p class="flavor">Human bodies are composed of physical matter, as opposed to monsters' more magical bodies. Because of this, human SOULs are not attuned to their bodies like monsters are. This trait allows their SOULs to persist after death</p>
+      <h4>PHYSICAL DESCRIPTION</h4>
+      <p>Fallen humans are physically identical to normal humans; however, their souls are completely different. A fallen human's soul can take on one of 7 different traits: determination, patience, bravery, integrity, perseverance, kindness, or justice. Each property reflects the personality of the fallen human and gives them unique traits and abilities. The soul of a fallen human is incredibly powerful and is fully capable of persisting on the mortal plane, far after their owner's death.</p>
+      <h4>HISTORY</h4>
+      <p>Long ago humans and monsters lived together in harmony, but one day it was discovered that monsters had the ability to absorb human souls, and become frighteningly powerful. Humanity, despite knowing that monsters were too kind and merciful to harm anyone with this power, attacked them out of fear. During the short-lived "War of Humans and Monsters," humanity slaughtered countless monsters, with fallen humans leading the charge, before sealing the rest of them beneath Mt. Ebott, using the magic of 7 human wizards. As thousands of years passed, monsters faded into legends and so did the abilities of fallen humans. Most humans, despite forgetting that monsters exist, are superstitious of Mt. Ebott, since those that climb it never return. That superstition never stopped a handful of children, who ventured up the mountain and fell into the underground, where monsterkind was still residing. Most of those children were killed and their souls were taken, but eventually, the barrier, that kept monsterkind sealed underground, was destroyed and a small fallen human helped monsterkind incorporate themselves into human society.</p>
+      <h4>SOCIETY</h4>
+      <p>
+        Fallen humans are just another part of human society. They interact, form bonds, and procreate with other humans, so most of them will never discover their incredible abilities, but they can under two specific conditions. If a fallen human comes in contact with powerful magic, or a member of the monster race, their soul type will be revealed to them. Upon discovering their soul type, they gain access to its unique traits.
+      </p>
+      <h4>FALLEN HUMAN NAMES</h4>
+      <p>Fallen humans appear to have a different naming structure than other humans. Instead of having traditionally male and female names, the names they give their children are gender neutral, or unisex.</p>
+      <p>
+        <span class="emphasis">Fallen Human Names: </span> Addison, Blair, Casey, Devyn, Elian, Francis, Gayle, Hibiki, Ivory, Jackie, Kris, Leslie, Morgan, Nicky, Ollie
+      </p>
+      <h4>FALLEN HUMAN TRAITS</h4>
+      <p>Fallen Humans have an assortment of inborn abilities, even before it is revealed what trait their soul is.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Dexterity and Wisdom scores increase by 1.<br />
+        <span class="feature">Age. </span>Fallen humans reach adulthood in their late teens and live less than a century.<br />
+        <span class="feature">Alignment. </span>Fallen humans tend toward no particular alignment. The best and the worst are found among them.<br />
+        <span class="feature">Size. </span>Fallen humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.<br />
+        <span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Act. </span>A fallen human can use their soul to read the intentions of another sentient beings. You are proficient in the Insight skill.<br />
+        <span class="feature">Languages. </span>You can speak, read, and write Common.<br />
+        <span class="feature">Subrace. </span>The souls of fallen humans have one of 7 traits: determination, patience, bravery, integrity, perseverance, kindness, and justice. Choose one of these traits.<br />
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="fallenhuman">Addison, Blair, Casey, Devyn, Elian, Francis, Gayle, Hibiki, Ivory, Jackie, Kris, Leslie, Morgan, Nicky, Ollie</set>
+      <set name="names-format">{{name}}</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="1" />
+	  <stat name="wisdom" value="1" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FALLENHUMAN_TRAIT" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FALLENHUMAN_ACT" />
+    </rules>
+  </element>
+
+  <element name="Act" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_FALLENHUMAN_ACT">
+    <supports />
+    <requirements />
+    <description>
+      <p>A fallen human can use their soul to read the intentions of another sentient beings. You are proficient in the Insight skill.</p>
+    </description>
+    <sheet>
+      <description>You are proficient in the Insight skill.</description>
+    </sheet>
+    <rules>
+		<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+	</rules>
+  </element>
+  
+  
+  
+  
+  <element name="Fallen Human Trait" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_FALLENHUMAN_TRAIT">
+    <supports></supports>
+    <requirements />
+    <description>
+      <p>The souls of fallen humans have one of 7 traits: determination, patience, bravery, integrity, perseverance, kindness, and justice. Choose one of these subraces.</p>
+    </description>
+    <sheet display="false"/>
+    <rules>
+      <select type="Sub Race" name="Fallen Human Trait" supports="Fallen Human" />
+    </rules>
+  </element>
+
+  <element name="Determination (Red Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_DETERMINATION">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Determination is the most basic of human qualities; however, a fallen human, who embodies determination, takes that concept to its illogical extreme. As someone who embodies determination, you never give up, no matter what.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span> Your Constitution score increases by 1.<br />
+        <span class="feature">Unbreakable Will.</span> No matter what pain your mind or body is forced to endure, you stubbornly refuse to give up. Whenever you make a death saving throw you can add twice your proficiency bonus to the roll.<br />
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_UNBREAKABLE_WILL" />
+    </rules>
+  </element>
+  
+  <element name="Unbreakable Will" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_UNBREAKABLE_WILL">
+    <supports />
+    <requirements />
+    <description>
+      <p>No matter what pain your mind or body is forced to endure, you stubbornly refuse to give up. Whenever you make a death saving throw you can add twice your proficiency bonus to the roll.</p>
+    </description>
+    <sheet display="true">
+      <description>Whenever you make a death saving throw you can add twice your proficiency bonus to the roll.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+
+  <element name="Patience (Cyan Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_PATIENCE">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Patience is a very basic virtue, but it's still one of the most important ones. Many believe that good things come to those who wait and you couldn't agree more. As someone who embodies patience, you're not only more likely to live longer, but also make fewer mistakes.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Wisdom score increases by 1.<br />
+        <span class="feature">Cumulative Wisdom. </span>The wisdom you've gained over the years has made you become much more cautious. Before rolling initiative, you can choose to take a –5 to your roll. If you do so, you gain resistance to the first attack you’re hit with that fight.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_CUMULATIVE_WISDOM" />
+    </rules>
+  </element>
+  
+  <element name="Cumulative Wisdom" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_CUMULATIVE_WISDOM">
+    <supports />
+    <requirements />
+    <description>
+      <p>The wisdom you've gained over the years has made you become much more cautious. Before rolling initiative, you can choose to take a –5 to your roll. If you do so, you gain resistance to the first attack you’re hit with that fight.</p>
+    </description>
+    <sheet display="true">
+      <description>Before rolling initiative, you can choose to take a –5 to your roll. If you do so, you gain resistance to the first attack you’re hit with that fight.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+  
+  <element name="Bravery (Orange Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_BRAVERY">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>True bravery has always been a commodity. There are plenty of people who don't realize the real danger of a situation and charge in blindly, but there are also those who only pretend to be brave. As someone who embodies true bravery, you never back down from a challenge, no matter the odds, but you're not reckless either, at least not completely.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Strength score increases by 1.<br />
+        <span class="feature">Courage. </span>No matter how terrifying a foe may be, you never falter. You have advantage on saving throws against being frightened. <br />
+		<span class="feature">Go for Broke. </span>You believe that whoever strikes first will win, so you intend to do just that. You gain +5 to your initiative rolls.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COURAGE" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GO_FOR_BROKE" />
+    </rules>
+  </element>
+  
+  <element name="Courage" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_COURAGE">
+    <supports />
+    <requirements />
+    <description>
+      <p>No matter how terrifying a foe may be, you never falter. You have advantage on saving throws against being frightened.</p>
+    </description>
+    <sheet display="true">
+      <description>You have advantage on saving throws against being frightened.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  <element name="Go for Broke" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_GO_FOR_BROKE">
+    <supports />
+    <requirements />
+    <description>
+      <p>You believe that whoever strikes first will win, so you intend to do just that. You gain +5 to your initiative rolls.</p>
+    </description>
+    <sheet display="true">
+      <description>You gain +5 to your initiative rolls.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+  
+  <element name="Integrity (Blue Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_INTEGRITY">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Integrity is not something that is easily maintained. Life is full of temptations and difficult decisions; however, those that can keep their integrity intact live their lives with far less guilt and uncertainty. As someone who embodies integrity, you draw strength from it, giving you incredible mental and spiritual strength.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Wisdom score increases by 1.<br />
+        <span class="feature">Moral Strength. </span>Both peer pressure and magical influences are always around you, but despite that, you stick to your moral code. Your soul resonates with your choice, giving you a clear head and a surge of confidence. You have advantage on saving throws against being charmed.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MORAL_STRENGTH" />
+    </rules>
+  </element>
+  
+  <element name="Moral Strength" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_MORAL_STRENGTH">
+    <supports />
+    <requirements />
+    <description>
+      <p>Both peer pressure and magical influences are always around you, but despite that, you stick to your moral code. Your soul resonates with your choice, giving you a clear head and a surge of confidence. You have advantage on saving throws against being charmed.</p>
+    </description>
+    <sheet display="true">
+      <description>You have advantage on saving throws against being charmed.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+  <element name="Perseverance (Purple Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_PERSERVERANCE">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Perseverance is a trait commonly found in adventurers, but only the greatest of them will ever truly embody it, and the same could be said for any profession. Life is difficult, unfair, and cruel, so only those with the strength to keep moving forward will be able to reach the top. As someone who embodies perseverance, this world will never break you, but that doesn't mean it won't try.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Constitution score increases by 1.<br />
+        <span class="feature">Second Wind. </span>Despite what your enemies believe, being knocked down doesn't mean you're finished. Your burning desire to keep moving forward and win resonates deep within your soul. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SECOND_WIND" />
+    </rules>
+  </element>
+  
+  <element name="Second Wind" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SECOND_WIND">
+    <supports />
+    <requirements />
+    <description>
+      <p>Despite what your enemies believe, being knocked down doesn't mean you're finished. Your burning desire to keep moving forward and win resonates deep within your soul. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+    </description>
+    <sheet display="true">
+      <description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+  <element name="Kindness (Green Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_KINDNESS">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Kindness is a subtle, yet powerful, force. Those who show it to others not only improve their lives but also their own. As someone who embodies kindness, you know this better than anyone. As you continue to make the lives of those around you better, your resolve to keep showing others your kindness only grows stronger.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Charisma score increases by 1.<br />
+        <span class="feature">Selfless Nature. </span>When a creature attacks your ally within 10 feet of you, you may use your reaction to grant your ally resistance to the trigering damage, and grant them temporary hp equal to your proficiency bonus. You can’t use this feature again until you finish a long rest.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="charisma" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SELFLESS_NATURE" />
+    </rules>
+  </element>
+  
+  <element name="Selfless Nature" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SELFLESS_NATURE">
+    <supports />
+    <requirements />
+    <description>
+      <p>When a creature attacks your ally within 10 feet of you, you may use your reaction to grant your ally resistance to the trigering damage, and grant them temporary hp equal to your proficiency bonus. You can’t use this feature again until you finish a long rest.</p>
+    </description>
+    <sheet display="true">
+      <description>When a creature attacks your ally within 10 feet of you, you may use your reaction to grant your ally resistance to the trigering damage, and grant them temporary hp equal to your proficiency bonus. You can’t use this feature again until you finish a long rest.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+  <element name="Justice (Yellow Soul)" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_JUSTICE">
+    <supports>Fallen Human</supports>
+    <requirements />
+    <description>
+      <p>Justice, and in what degree it should be applied, is easily the most subjective concept on the planet. Everyone's moral standards are shaped by their own unique experiences growing up, as well as, by those they surrounded themselves with. When someone feels like they've been wronged, they desire revenge, and they do so out of their own sense of justice; however, there are those who believe that true justice can only be determined by the law. Either way, humans that have a strong sense of justice feel the need to act. As someone who embodies justice, you refuse to stand aside and let someone wrong you or those you care about, so in one way or another, for better or for worse, you take action.</p>
+      <p>
+        <span class="feature">Ability Score Increase. </span>Your Strength score increases by 1.<br />
+        <span class="feature">Vengeance. </span>You're willing to let some transgressions slide, but when someone hurts those you care about, you feel a strong desire to make them pay for it. When a hostile creature deals damage to an ally within 30 feet of you, you may choose to move up to your speed towards creature. If you end your movement within 5 feet of the creature, you can use your reaction to make one attack. In addition, if that attack hits, it counts as a critical hit. After you use this ability, you can't use it again until you finish a long rest.
+      </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VENGEANCE" />
+    </rules>
+  </element>
+  
+  <element name="Vengeance" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_VENGEANCE">
+    <supports />
+    <requirements />
+    <description>
+      <p>You're willing to let some transgressions slide, but when someone hurts those you care about, you feel a strong desire to make them pay for it. When a hostile creature deals damage to an ally within 30 feet of you, you may choose to move up to your speed towards creature. If you end your movement within 5 feet of the creature, you can use your reaction to make one attack. In addition, if that attack hits, it counts as a critical hit. After you use this ability, you can't use it again until you finish a long rest.</p>
+    </description>
+    <sheet display="true">
+      <description>When a hostile creature deals damage to an ally within 30 feet of you, you may choose to move up to your speed towards creature. If you end your movement within 5 feet of the creature, you can use your reaction to make one attack. In addition, if that attack hits, it counts as a critical hit. After you use this ability, you can't use it again until you finish a long rest.</description>
+    </sheet>
+    <rules>
+    </rules>
+  </element>
+  
+  
+
+</elements>
