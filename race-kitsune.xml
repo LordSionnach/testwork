@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kitsune</name>
+		<description></description>
+		<author url="https://www.sionnachwashere.com">Your Lord, Sionnach</author>
+		<update version="0.0.1">
+			<file name="race-fallenhuman.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-kitsune.xml" />
+		</update>
+	</info>
+
+	<element name="Kitsune" type="Race" source="Sionnach's Mind" id="ID_SION_RACE_KITSUNE">
+		<description>
+			<p class="flavor">
+				Kitsune are a race of fey descendant foxes able to take both humanoid and fox like shapes. These tricky foxes have learned through the centuries to utilize this shape-changing to further their trickster ambitions.
+			</p>
+			<h4>
+				PHYSICAL DESCRIPTION
+			</h4>
+				<p>
+					Fur colors take on a wide range of colors, from natural colors such as red, white, black, and brown to more magical, often darker blues, greens, yellows, and oranges. Markings on their belly, muzzle, legs/feet, and tips of tails accent their main fur color, commonly a brighter version. A Kitsune’s birth environment and variant type can hold sway to the color their fur takes on. A Kitsune may also assume a humanoid appearance, often doing so when interacting with other humanoid races. Kitsune of any age often have trouble hiding their tails and ears, opting to leave them visible as a marker of their race. Hair color tends to matches their fur color, thickening during the winter months and thinning during the summer. Eyes cover a large range of colors but commonly match the accent color of their fur.
+				</p>	
+			<h4>
+				HISTORY
+			</h4>
+				<p>
+					The Kitsune are a long, fulfilled race of beings that once lived in the Feywilds, villages being found between the kingdoms of the archfeys. Often built around the forest they so deeply cherished, the story and legends of the Kitsune people are written into the ever aging trees themselves. with each passing generation the trees grow taller and so that generations story can begin. This is not to say that their history is not written in books, when one of the sacred story trees falls, the elder of the village is tasked to use the wood to create new books for the story of their people to be recorded in. Long ago a group of Kitsune sought out the material plane, both to explore and call a new home. Coming to be known as tricksters and adventurers, Kitsune as are prone to be drawn to towns and cities. Anywhere they can learn from travelers and adventures and scratch that trick loving itch. Material plane villages do exist! Deep in forests hidden in the trees and underbrush, these settlements will not be found easily if the residence do not wish to be seen. Those that earn the trust of the local foxes will find themselves in a world of long standing culture and tradition and friends for life. Being a race originally from the Feywilds, Kitsune are sometimes sought out by evil individuals. Their tails filled with power and excellent components to spells and potions.
+				</p>
+			<h4>
+				SOCIETY
+			</h4>
+				<p>
+					Kitsune society used to be a flourishing society of mages and clerics. Since Kitsune are born with a little bit of magic in their blood, to begin with, it is quite common for them to seek out ways to improve on what they are already gifted with. They used to be a very open people enjoying the loves and joys of any race: drinking, feasts, merriment, music, plays, poetry, and storytelling in general. Many of the legends of the Kitsune came from the Kitsune themselves, spinning tall tales of grand heroic mages and warriors. Other races didn't get along very well with Kitsune due to magic being relatively rare in the world, and all Kitsune had access to it like it was nothing just because of being who they were. After the massive genocide against their race, they became a largely secretive race. After coming out of hiding, their faith in the world was restored after the Great Nine-Tailed Tsukiko led them away from their destruction. Most of the kitsune are still very secretive, albeit passionate about their causes. Still, it is in the nature of a kitsune to be a bit of a trickster with people they get to know and it isn't uncommon for their jokes to 'go a little too far' in the eyes of other races. Other races are wary of these fox folk when they meet them. Many pose as humans in the world, having shape changing as an innate ability in their blood. Many kitsune go out to study magic or spread the word of their gods. Some simply want to spread the stories of their kind, valuing these great stories, kitsune bards to travel to other nations to tell their tales.
+				</p>
+			<h4>
+				Kitsune Names
+			</h4>
+				<p>
+					<span class="emphasis">
+						Kitsune Names: 
+					</span> 
+					<span class="emphasis">Male Names: </span>Han, Hiroto, Kirote, Mare, Akihiko, Daiki, Jirou, Kei, Osamu, Takeo, Yuudai<br />
+					<span class="emphasis">Female Names: </span>Fenro, Kimone, Rain, Sinatsu, Aya, Chinatsu, Eri, Mana, Ritsuko, Sachiko, Tsukiko<br />
+				</p>
+			<h4>
+				KITSUNE TRAITS
+			</h4>
+				<p>
+					A race of anthropomorphic fox people who have magic in their blood and light shape-changing capabilities.
+				</p>
+				<p>
+					<span class="feature">Ability Score Increase. </span>Your Charisma score increases by 2.<br />
+					<span class="feature">Age. </span>Kitsune reach adulthood at 16, cease physical aging in their early 20s and live to be a century and a half.<br />
+					<span class="feature">Alignment. </span>Due to their nature of being a bit mischievous, kitsune are often chaotic. Even the most skilled monks find it difficult to ignore the desire to be a bit mischievous at times, but they tend to approach the trick in a much more planned out and guided manner. Kitsune are known to be both good and evil.<br />
+					<span class="feature">Size. </span>Kitsune are generally on the smaller side of most humanoids ranging from 4'7 to the tallest being just under 6'. Weight wise kitsune are as light and agile as they look. Your size is Medium.<br />
+					<span class="feature">Speed. </span>Your base walking speed is 30 feet. While not carrying anything in your hands you can drop to all fours and increase your movement speed to 35 feet.<br />
+					<span class="feature">Kitsune Awareness. </span>Kitsune have the ability to hear falsehoods for what they are. You are proficient in the Insight skill.<br />
+					<span class="feature">Kitsune Trickery. </span> You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest. <br />
+					<span class="feature">Languages. </span>You can speak, read, and write Common.<br />
+					<span class="feature">Subrace. </span>Pick one from Zenko or Yako.<br />
+				</p>
+		</description>
+    <sheet display="false" />
+	
+    <setters>
+      <set name="names" type="male">Han, Hiroto, Kirote, Mare, Akihiko, Daiki, Jirou, Kei, Osamu, Takeo, Yuudai</set>
+      <set name="names" type="female">Fenro, Kimone, Rain, Sinatsu, Aya, Chinatsu, Eri, Mana, Ritsuko, Sachiko, Tsukiko</set>
+      <set name="names-format">{{name}}</set>
+    </setters>
+	
+    <rules>
+      <stat name="charisma" value="2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNEAWARENESS" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNETRICKERY" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_SUBRACE" />
+    </rules>
+	</element>
+
+	<element name="Kitsune Awareness" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNEAWARENESS">
+    <supports />
+    <requirements />
+    <description>
+      <p>Kitsune have the ability to hear falsehoods for what they are. You are proficient in the Insight skill.</p>
+    </description>
+    <sheet>
+      <description>You are proficient in the Insight skill.</description>
+    </sheet>
+    <rules>
+		<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+	</rules>
+  </element>
+  
+	<element name="Kitsune Trickery" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNETRICKERY">
+    <supports />
+    <requirements />
+    <description>
+      <p>You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest.</p>
+    </description>
+    <sheet>
+      <description>You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest.</description>
+    </sheet>
+    <rules>
+		
+	</rules>
+  </element>
+  
+  
+  
+  
+	<element name="Kitsune Subrace" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_SUBRACE">
+		<supports></supports>
+		<requirements />
+		<description>
+		<p>Pick one from Zenko or Yako.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+		<select type="Sub Race" name="Kitsune Sub Race" supports="Kitsune" />
+		</rules>
+	</element>
+
+	<element name="Zenko" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_ZENKO">
+		<supports>Kitsune</supports>
+		<requirements />
+		<description>
+		<p>They are known as celestial kitsune since most are benevolent and kind. These kitsune tend to have the lighter fur colors such as white, golden brown, grey, ect. </p>
+		<p>
+			<span class="feature">Ability Score Increase.</span> Your Wisdom score increases by 1.<br />
+			<span class="feature">Second Language.</span> You can speak, read and write Celestial.<br />
+			<span class="feature">Kitsune Divinity.</span> You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells. 
+		</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d10">4′5″</set>
+			<set name="weight" modifier="2d4">75- lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNEDIVINITY" />
+		</rules>
+  </element>
+  
+	<element name="Kitsune Divinty" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNEDIVINITY">
+		<supports />
+		<requirements />
+		<description>
+			<p>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="true">
+		<description>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" level="0" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" />
+		</rules>
+	</element> 
+
+
+		<element name="Yako" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_YAKO">
+		<supports>Kitsune</supports>
+		<requirements />
+		<description>
+		<p>They are known as trickster kitsune since they are the ones more prone to their prankster heritage. These kitsune tend to have the darker fur colors, black, reddish brown, dark grey, etc.</p>
+		<p>
+			<span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 1.<br />
+			<span class="feature">Second Language.</span> You can speak, read and write Sylvan.<br />
+			<span class="feature">Kitsune Arcana.</span> You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.
+		</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d10">4′5″</set>
+			<set name="weight" modifier="2d4">75- lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNEARCANA" />
+		</rules>
+  </element>
+  
+	<element name="Kitsune Arcana" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNEARCANA">
+		<supports />
+		<requirements />
+		<description>
+			<p>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="true">
+		<description>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" level="0" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="5" />
+		</rules>
+	</element>  
+
+</elements>
