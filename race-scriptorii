@@ -187,7 +187,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFERUDITION_SUBJECTEXPERTISE" />
 			<select type="Spell" name="Arcane Lore (Scriptorii)" supports="0,(Wizard)" />
 		</rules>
- 
+	</element>
 		<element name="Subject Expertise" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFERUDITION_SUBJECTEXPERTISE">
 			<supports />
 			<requirements />
