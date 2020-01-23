@@ -14,5 +14,7 @@
 	<files>
 		<file name="sources.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/sources.xml" />
 		<file name="race-fallenhuman.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-fallenhuman.xml" />
+		<file name="race-kitsune.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-kitsune.xml" />
+		<file name="race-scriptorii.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-scriptorii" />
 	</files>
 </index>
