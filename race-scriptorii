@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="https://www.sionnachwashere.com">Your Lord, Sionnach</author>
 		<update version="0.0.1">
-			<file name="race-scriptorii.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-scriptorii.xml" />
+			<file name="race-scriptorii.xml" url="https://raw.githubusercontent.com/LordSionnach/testwork/master/race-fallenhuman.xml" />
 		</update>
 	</info>
 
@@ -35,75 +35,88 @@
 			<h4>
 				Scriptorii Names
 			</h4>
-				<p>
-					Most scriptorii keep the titles of their original books, with more familiar nicknames for everyday use.
-				</p>
+				<p>Most scriptorii keep the titles of their original books, with more familiar nicknames for everyday use.</p>
 				<p>
 					<span class="emphasis">
-						Scriptorii Names: 
+						Scriptorii Names<br />
 					</span> 
-					<span class="emphasis">Male Names: </span>Han, Hiroto, Kirote, Mare, Akihiko, Daiki, Jirou, Kei, Osamu, Takeo, Yuudai<br />
-					<span class="emphasis">Female Names: </span>Fenro, Kimone, Rain, Sinatsu, Aya, Chinatsu, Eri, Mana, Ritsuko, Sachiko, Tsukiko<br />
+					<span class="emphasis">Titles: </span>Framington’s Guide to Agriculture, Myths and Legends of the Far Realms, The Art and Science of Siege Warfare, Halflings: A History, Anatomy for Beginners, Viktor’s Arsenal of Barbed Witticisms <br />
+					<span class="emphasis">Familiar Names: </span>Frame, Myth, Siege, Half, Nat, Viktor<br />
 				</p>
 			<h4>
-				KITSUNE TRAITS
+				SCRIPTORII TRAITS
 			</h4>
 				<p>
-					A race of anthropomorphic fox people who have magic in their blood and light shape-changing capabilities.
+					Your scriptorii character has a number of qualities in common with other scriptorii.
 				</p>
 				<p>
-					<span class="feature">Ability Score Increase. </span>Your Charisma score increases by 2.<br />
-					<span class="feature">Age. </span>Kitsune reach adulthood at 16, cease physical aging in their early 20s and live to be a century and a half.<br />
-					<span class="feature">Alignment. </span>Due to their nature of being a bit mischievous, kitsune are often chaotic. Even the most skilled monks find it difficult to ignore the desire to be a bit mischievous at times, but they tend to approach the trick in a much more planned out and guided manner. Kitsune are known to be both good and evil.<br />
-					<span class="feature">Size. </span>Kitsune are generally on the smaller side of most humanoids ranging from 4'7 to the tallest being just under 6'. Weight wise kitsune are as light and agile as they look. Your size is Medium.<br />
-					<span class="feature">Speed. </span>Your base walking speed is 30 feet. While not carrying anything in your hands you can drop to all fours and increase your movement speed to 35 feet.<br />
-					<span class="feature">Kitsune Awareness. </span>Kitsune have the ability to hear falsehoods for what they are. You are proficient in the Insight skill.<br />
-					<span class="feature">Kitsune Trickery. </span> You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest. <br />
-					<span class="feature">Languages. </span>You can speak, read, and write Common.<br />
-					<span class="feature">Subrace. </span>Pick one from Zenko or Yako.<br />
+					<span class="feature">Ability Score Increase. </span>Your Intelligence score increases by 2.<br />
+					<span class="feature">Age. </span>Scriptorii count their ages both by their original publication date and by when they were spirit-bound. So a Scriptorii might say that they are “sixty and four,” meaning their original book was published 60 years ago, and they were bound 4 years ago.<br />
+					<span class="feature">Alignment. </span>Scriptorii can be any alignment, depending on their core volume.<br />
+					<span class="feature">Size. </span>Scriptorii average about 5 feet tall, but only weigh between 25–50 pounds, since they are made of paper held together by arcane force. Your size is Medium.<br />
+					<span class="feature">Speed. </span>Your base walking speed is 30 feet.<br />
+					<span class="feature">Flammable. </span> When you take fire damage, you must make a Dexterity saving throw. The DC equals 10 or half the damage you take, whichever number is higher. On a failure, you catch fire and take an extra 1d6 fire damage at the end of each of your turns as long as you are on fire. You can use your action to put out the fire. <br />
+					<span class="feature">Languages. </span>You can speak, read, and write Common and two other languages of your choice.<br />
+					<span class="feature">Paper Person. </span>As a spirit-bound book, you don’t eat, drink, or breathe. You also have resistance to poison damage and have advantage on saves against the poisoned condition. You do not sleep, but must periodically spend 4 hours checking over your pages, copying and repairing damaged passages. While doing so, you are conscious and alert, but focused, and have disadvantage to Perception checks to notice approaching danger. After repairing yourself, you gain the same benefit that a human does from 8 hours of sleep. Magic that would put a humanoid to sleep instead renders you paralyzed instead of unconscious for the effect’s normal duration.<br />
+					<span class="feature">Made of Words. </span>Scriptorii don’t search out hidden knowledge from idle curiosity. Since you are formed of paper and magic, you can attune to a spell scroll as a magic item. When you attune to the scroll, it becomes part of your form and is consumed, and cannot be reused if you unattune to it. You may then cast the spell from that scroll once, regaining the ability to do so after you finish a long rest. Intelligence is your spellcasting ability for this spell, and the DC of saving throws is 8 + your Intelligence modifier + your proficiency modifier. At 1st level you may attune to a spell scroll containing a cantrip. This benefit increases to a 1st level spell at 6th level, 2nd at 11th level, and 3rd at 16th level..<br />
+					<span class="feature">Subrace. </span>You are the bound spirit of a book or library devoted to a certain topic. Choose between Volume of Discipline, Volume of Erudition, Volume of Philosophy, or Volume of Literature.<br />
 				</p>
 		</description>
     <sheet display="false" />
 	
     <setters>
-      <set name="names" type="male">Han, Hiroto, Kirote, Mare, Akihiko, Daiki, Jirou, Kei, Osamu, Takeo, Yuudai</set>
-      <set name="names" type="female">Fenro, Kimone, Rain, Sinatsu, Aya, Chinatsu, Eri, Mana, Ritsuko, Sachiko, Tsukiko</set>
+      <set name="names" type="male">Framington’s Guide to Agriculture, Myths and Legends of the Far Realms, The Art and Science of Siege Warfare, Halflings: A History, Anatomy for Beginners, Viktor’s Arsenal of Barbed Witticisms</set>
+      <set name="names" type="female">Frame, Myth, Siege, Half, Nat, Viktor</set>
       <set name="names-format">{{name}}</set>
     </setters>
 	
     <rules>
-      <stat name="charisma" value="2" />
+      <stat name="intelligence" value="2" />
       <stat name="innate speed" value="30" bonus="base" />
       <grant type="Size" id="ID_SIZE_MEDIUM" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNEAWARENESS" />
-	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNETRICKERY" />
-	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNE_SUBRACE" />
+	  <select type="Language" name="Language (Scriptorii)" supports="Standard||Exotic" />
+	  <select type="Language" name="Language (Scriptorii)" supports="Standard||Exotic" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_PAPERPERSON" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_MADEOFWORDS" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_FLAMMABLE" />
+	  <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_SUBRACE" />
     </rules>
 	</element>
 
-	<element name="Kitsune Awareness" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNEAWARENESS">
+	<element name="Paper Person" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_PAPERPERSON">
     <supports />
     <requirements />
     <description>
-      <p>Kitsune have the ability to hear falsehoods for what they are. You are proficient in the Insight skill.</p>
+      <p>As a spirit-bound book, you don’t eat, drink, or breathe. You also have resistance to poison damage and have advantage on saves against the poisoned condition. You do not sleep, but must periodically spend 4 hours checking over your pages, copying and repairing damaged passages. While doing so, you are conscious and alert, but focused, and have disadvantage to Perception checks to notice approaching danger. After repairing yourself, you gain the same benefit that a human does from 8 hours of sleep. Magic that would put a humanoid to sleep instead renders you paralyzed instead of unconscious for the effect’s normal duration.</p>
     </description>
     <sheet>
-      <description>You are proficient in the Insight skill.</description>
+      <description>As a spirit-bound book, you don’t eat, drink, or breathe. You also have resistance to poison damage and have advantage on saves against the poisoned condition. You do not sleep, but must periodically spend 4 hours checking over your pages, copying and repairing damaged passages. While doing so, you are conscious and alert, but focused, and have disadvantage to Perception checks to notice approaching danger. After repairing yourself, you gain the same benefit that a human does from 8 hours of sleep. Magic that would put a humanoid to sleep instead renders you paralyzed instead of unconscious for the effect’s normal duration.</description>
+    </sheet>
+  </element>
+  
+	<element name="Made of Words" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_MADEOFWORDS">
+    <supports />
+    <requirements />
+    <description>
+      <p>Scriptorii don’t search out hidden knowledge from idle curiosity. Since you are formed of paper and magic, you can attune to a spell scroll as a magic item. When you attune to the scroll, it becomes part of your form and is consumed, and cannot be reused if you unattune to it. You may then cast the spell from that scroll once, regaining the ability to do so after you finish a long rest. Intelligence is your spellcasting ability for this spell, and the DC of saving throws is 8 + your Intelligence modifier + your proficiency modifier. At 1st level you may attune to a spell scroll containing a cantrip. This benefit increases to a 1st level spell at 6th level, 2nd at 11th level, and 3rd at 16th level.</p>
+    </description>
+    <sheet>
+      <description>You can attune to a spell scroll as a magic item. When you attune to the scroll, it becomes part of your form and is consumed, and cannot be reused if you unattune to it. You may then cast the spell from that scroll once, regaining the ability to do so after you finish a long rest. Intelligence is your spellcasting ability for this spell, and the DC of saving throws is 8 + your Intelligence modifier + your proficiency modifier. At 1st level you may attune to a spell scroll containing a cantrip. This benefit increases to a 1st level spell at 6th level, 2nd at 11th level, and 3rd at 16th level.</description>
     </sheet>
     <rules>
-		<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		
 	</rules>
   </element>
   
-	<element name="Kitsune Trickery" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_KITSUNETRICKERY">
+  <element name="Flammable" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_FLAMMABLE">
     <supports />
     <requirements />
     <description>
-      <p>You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest.</p>
+      <p>When you take fire damage, you must make a Dexterity saving throw. The DC equals 10 or half the damage you take, whichever number is higher. On a failure, you catch fire and take an extra 1d6 fire damage at the end of each of your turns as long as you are on fire. You can use your action to put out the fire.</p>
     </description>
     <sheet>
-      <description>You can appear as a human equivalent of yourself indefinitely using a very simple illusion magic, you cannot change alter your illusionary human self. A creature looking directly at you can make a Intelligence (Investigation) check, to tell that you are not what you appear to be, though they still cannot perceive your true form. The DC for this check is equal to 10 + your proficiency bonus + your Charisma modifier. This magic is detectable by spells such as detect magic and dispelled in an antimagic field or by a successful dispel magic. Your proficiency bonus is considered the level of the spell for the sake of dispel magic. If your illusion is dispelled you cannot use the effect again until after a long rest.</description>
+      <description>When you take fire damage, you must make a Dexterity saving throw. The DC equals 10 or half the damage you take, whichever number is higher. On a failure, you catch fire and take an extra 1d6 fire damage at the end of each of your turns as long as you are on fire. You can use your action to put out the fire.</description>
     </sheet>
     <rules>
 		
@@ -112,68 +125,27 @@
   
   
   
-  
-	<element name="Kitsune Subrace" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNE_SUBRACE">
+	<element name="Scriptorii Subrace" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_SUBRACE">
 		<supports></supports>
 		<requirements />
 		<description>
-		<p>Pick one from Zenko or Yako.</p>
+		<p>Choose between Volume of Discipline, Volume of Erudition, Volume of Philosophy, or Volume of Literature.</p>
 		</description>
 		<sheet display="false"/>
 		<rules>
-		<select type="Sub Race" name="Kitsune Sub Race" supports="Kitsune" />
+		<select type="Sub Race" name="Scriptorii Sub Race" supports="Scriptorii" />
 		</rules>
 	</element>
 
-	<element name="Zenko" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_ZENKO">
-		<supports>Kitsune</supports>
+	<element name="Volume of Discipline" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_VOLUMEOFDISCIPLINE">
+		<supports>Scriptorii</supports>
 		<requirements />
 		<description>
-		<p>They are known as celestial kitsune since most are benevolent and kind. These kitsune tend to have the lighter fur colors such as white, golden brown, grey, ect. </p>
-		<p>
-			<span class="feature">Ability Score Increase.</span> Your Wisdom score increases by 1.<br />
-			<span class="feature">Second Language.</span> You can speak, read and write Celestial.<br />
-			<span class="feature">Kitsune Divinity.</span> You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells. 
-		</p>
-		</description>
-		<sheet display="false"/>
-		<setters>
-			<set name="height" modifier="2d10">4′5″</set>
-			<set name="weight" modifier="2d4">75- lb.</set>
-		</setters>
-		<rules>
-			<stat name="wisdom" value="1" />
-			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNEDIVINITY" />
-		</rules>
-  </element>
-  
-	<element name="Kitsune Divinty" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNEDIVINITY">
-		<supports />
-		<requirements />
-		<description>
-			<p>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</p>
-		</description>
-		<sheet display="true">
-		<description>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the bless spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the calm emotions spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" level="0" />
-			<grant type="Spell" id="ID_PHB_SPELL_BLESS" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="5" />
-		</rules>
-	</element> 
-
-
-		<element name="Yako" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_YAKO">
-		<supports>Kitsune</supports>
-		<requirements />
-		<description>
-		<p>They are known as trickster kitsune since they are the ones more prone to their prankster heritage. These kitsune tend to have the darker fur colors, black, reddish brown, dark grey, etc.</p>
+		<p>Your core text is a book of mastering the body through the mind, endowing you with great control over your physical form.</p>
 		<p>
 			<span class="feature">Ability Score Increase.</span> Your Dexterity score increases by 1.<br />
-			<span class="feature">Second Language.</span> You can speak, read and write Sylvan.<br />
-			<span class="feature">Kitsune Arcana.</span> You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.
+			<span class="feature">Proficiencies.</span> You have proficiency in your choice of the Sleight of Hand or Stealth skill. You are also proficient with two martial weapons of your choice.<br />
+			<span class="feature">Martial Insight.</span> Your understanding of the body makes you a deadly foe. When you make a weapon attack, you can give yourself a bonus to the attack and damage roll equal to your Intelligence modifier. After you do so, you can’t use this trait again until you finish a short or long rest.
 		</p>
 		</description>
 		<sheet display="false"/>
@@ -183,25 +155,146 @@
 		</setters>
 		<rules>
 			<stat name="dexterity" value="1" />
-			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KITSUNEARCANA" />
+			<select type="Proficiency" name="Proficiency (Volume of Discipline)" supports="ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<select type="Proficiency" name="Proficiency (Volume of Discipline)" supports="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE|ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE|ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN|ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDCROSSBOW|ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL|ID_PROFICIENCY_WEAPON_PROFICIENCY_GLAIVE|ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD|ID_PROFICIENCY_WEAPON_PROFICIENCY_HALBERD|ID_PROFICIENCY_WEAPON_PROFICIENCY_LANCE|ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW|ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD|ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL|ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR|ID_PROFICIENCY_WEAPON_PROFICIENCY_NET|ID_PROFICIENCY_WEAPON_PROFICIENCY_PIKE|ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER|ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR|ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD|ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT|ID_PROFICIENCY_WEAPON_PROFICIENCY_WARPICK|ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER|ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP" number="2"/>
+		</rules>
+  </element>
+
+
+
+
+
+	<element name="Volume of Erudition" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_VOLUMEOFERUDITION">
+		<supports>Scriptorii</supports>
+		<requirements />
+		<description>
+		<p>Your core text is a book of great scholarly prowess and deep research, giving you comprehensive mastery over your chosen subject matter</p>
+		<p>
+			<span class="feature">Ability Score Increase.</span> Your Constitution score increases by 1.<br />
+			<span class="feature">Proficiencies.</span> You gain proficiency with two of the following skills of your choice: Arcana, History, Investigation, Nature, and Religion.<br />
+			<span class="feature">Subject Expertise.</span> Choose one creature type or environment. You have advantage on all Intelligence checks pertaining to your chosen creature or environment.<br />
+			<span class="feature">Arcane Lore.</span> You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+		</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d10">4′5″</set>
+			<set name="weight" modifier="2d4">75- lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" />
+			<select type="Proficiency" name="Proficiency (Volume of Erudition)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_RELIGION" number="2" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFERUDITION_SUBJECTEXPERTISE" />
+			<select type="Spell" name="Arcane Lore (Scriptorii)" supports="0,(Wizard)" />
+		</rules>
+ 
+		<element name="Subject Expertise" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFERUDITION_SUBJECTEXPERTISE">
+			<supports />
+			<requirements />
+			<description>
+				<p>Choose one creature type or environment. You have advantage on all Intelligence checks pertaining to your chosen creature or environment.</p>
+			</description>
+			<sheet>
+				<description>Choose one creature type or environment. You have advantage on all Intelligence checks pertaining to your chosen creature or environment.</description>
+			</sheet>
+			<rules>
+		
+			</rules>
+		</element>
+		
+		
+		
+  
+  <element name="Volume of Philosophy" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_VOLUMEOFPHILOSOPHY">
+		<supports>Scriptorii</supports>
+		<requirements />
+		<description>
+		<p>Your core text is a book of profound thoughts and introspection, giving you great insight into the reality of situations.</p>
+		<p>
+			<span class="feature">Ability Score Increase.</span> Your Wisdom score increases by 1.<br />
+			<span class="feature">Proficiencies.</span> Choose one skill proficiency from Animal Handling, Insight, Medicine, Perception, or Survival.<br />
+			<span class="feature">Stoic.</span> When you are reduced to 0 hit points but not killed outright, you stay conscious and keep a number of hit points equal to your Wisdom modifier. You may not use this feature again until after a long rest.<br />
+			<span class="feature">Master of Paradox.</span> You are capable of making profound observations about the nature of the universe, flummoxing friends and enemies alike. As an action, you may state a paradox, and any creature who hears and understands you must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Intelligence modifier + your proficiency bonus. On a failed save, a creature is stunned until the end of its next turn. You may not use this ability again until after a long rest.
+		</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d10">4′5″</set>
+			<set name="weight" modifier="2d4">75- lb.</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" />
+			<select type="Proficiency" name="Proficiency (Volume of Philosophy)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFPHILOSOPHY_STOIC" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFPHILOSOPHY_MASTEROFPARADOX" />
 		</rules>
   </element>
   
-	<element name="Kitsune Arcana" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_KITSUNEARCANA">
-		<supports />
+	<element name="Stoic" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFPHILOSOPHY_STOIC">
+			<supports />
+			<requirements />
+			<description>
+				<p>When you are reduced to 0 hit points but not killed outright, you stay conscious and keep a number of hit points equal to your Wisdom modifier. You may not use this feature again until after a long rest.</p>
+			</description>
+			<sheet>
+				<description>When you are reduced to 0 hit points but not killed outright, you stay conscious and keep a number of hit points equal to your Wisdom modifier. You may not use this feature again until after a long rest.</description>
+			</sheet>
+			<rules>
+		
+			</rules>
+	</element>
+	 
+	 <element name="Stoic" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFPHILOSOPHY_MASTEROFPARADOX">
+			<supports />
+			<requirements />
+			<description>
+				<p>You are capable of making profound observations about the nature of the universe, flummoxing friends and enemies alike. As an action, you may state a paradox, and any creature who hears and understands you must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Intelligence modifier + your proficiency bonus. On a failed save, a creature is stunned until the end of its next turn. You may not use this ability again until after a long rest.</p>
+			</description>
+			<sheet>
+				<description>As an action, you may state a paradox, and any creature who hears and understands you must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Intelligence modifier + your proficiency bonus. On a failed save, a creature is stunned until the end of its next turn. You may not use this ability again until after a long rest.</description>
+			</sheet>
+			<rules>
+		
+			</rules>
+	</element>
+	 
+	  <element name="Volume of Literature" type="Sub Race" source="Sionnach's Mind" id="ID_SUB_RACE_VOLUMEOFLITERATURE">
+		<supports>Scriptorii</supports>
 		<requirements />
 		<description>
-			<p>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</p>
+		<p>Your core text is a work of masterful fiction, full of high drama, human truths, pathos, sudden reversals, empathy, pain and loss, giving you uncommon insight into other people.</p>
+		<p>
+			<span class="feature">Ability Score Increase.</span> Your Charisma score increases by 1.<br />
+			<span class="feature">Proficiencies.</span> Choose one skill proficiency from Deception, Intimidation, Performance, or Persuasion.<br />
+			<span class="feature">Spoil the Ending.</span> You use your knowledge of stories to encourage your allies and deflate your enemies, telling of how similar attempts have succeeded or failed in the past. As an action, you can impose advantage or disadvantage on a creature’s next ability check or attack roll, provided it can hear and understand you. You may use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.<br />
+		</p>
 		</description>
-		<sheet display="true">
-		<description>You know the produce flame cantrip, with the exception that your flame is blue. When you reach 3rd level, you can cast the cause fear spell once and need to finish a long rest before you can cast it again. When you reach 5th level, you can also cast the phantasmal force spell once and need to finish a long rest before you can cast it again. Charisma is your spellcasting ability for these spells.</description>
-		</sheet>
+		<sheet display="false"/>
+		<setters>
+			<set name="height" modifier="2d10">4′5″</set>
+			<set name="weight" modifier="2d4">75- lb.</set>
+		</setters>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" level="0" />
-			<grant type="Spell" id="ID_XGTE_SPELL_CAUSE_FEAR" level="3" />
-			<grant type="Spell" id="ID_PHB_SPELL_PHANTASMAL_FORCE" level="5" />
+			<stat name="charisma" value="1" />
+			<select type="Proficiency" name="Proficiency (Volume of Philosophy)" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFLITERATURE_SPOILTHEENDING" />
 		</rules>
-	</element>  
+  </element>
+	
+	<element name="Spoil the Ending" type="Racial Trait" source="Sionnach's Mind" id="ID_RACIAL_TRAIT_SCRIPTORII_VOLUMEOFLITERATURE_SPOILTHEENDING">
+			<supports />
+			<requirements />
+			<description>
+				<p>You use your knowledge of stories to encourage your allies and deflate your enemies, telling of how similar attempts have succeeded or failed in the past. As an action, you can impose advantage or disadvantage on a creature’s next ability check or attack roll, provided it can hear and understand you. You may use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest. </p>
+			</description>
+			<sheet>
+				<description>You use your knowledge of stories to encourage your allies and deflate your enemies, telling of how similar attempts have succeeded or failed in the past. As an action, you can impose advantage or disadvantage on a creature’s next ability check or attack roll, provided it can hear and understand you. You may use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a long rest.</description>
+			</sheet>
+			<rules>
+		
+			</rules>
+	</element>
+	 
+	 
 
 </elements>
